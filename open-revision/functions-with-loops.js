@@ -58,6 +58,9 @@ printInstructions([
 let studentAnswers = ['C', 'D', 'D', 'B', 'A', 'C', 'B'];
 let teachersCopy = ['A', 'D', 'G', 'B', 'B', 'C', 'B'];
 
+let studentAnswers2 = ['C', 'A', 'D', 'B', 'B', 'D', 'C'];
+let teachersCopy2 = ['A', 'D', 'G', 'B', 'B', 'C', 'B'];
+
 //if the the value at the idex of this matches,add 1 to the score
 //score should start at 0
 
@@ -73,3 +76,5 @@ function gradeQuiz(studentArray, teachersArray) {
 }
 
 console.log(gradeQuiz(studentAnswers, teachersCopy));
+
+console.log(gradeQuiz(studentAnswers2, teachersCopy2));
